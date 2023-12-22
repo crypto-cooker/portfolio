@@ -10,7 +10,7 @@
 
 ### 1. Clone this repository
   
-  Using `git clone https://github.com/tardishero/my_website`
+  Using `git clone https://github.com/super1114/my_website`
 
 ### 2. Install dependencies
 

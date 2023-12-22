@@ -1,6 +1,6 @@
 import { AwesomeButton } from "react-awesome-button";
 import { Fade } from "react-awesome-reveal";
-import { BsDiscord, BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { BsDiscord, BsGithub, BsLinkedin, BsTelegram, BsTwitter } from "react-icons/bs";
 import { socialLinks } from "../data/socialLinks";
 
 export default function Contact() {
@@ -21,11 +21,11 @@ export default function Contact() {
             <small className="dark:text-[#9a9a9a] text-[#6e6e6e]">
               {`If you want to get in touch, talk to me about a project collaboration, or just say hi, please send an email to `}
               <a
-                href="mailto:tardis.abs@gmail.com"
+                href="mailto:albertomira1114@gmail.com"
                 className="text-2xl dark:text-[#bbbbbb] transition-all duration-300 dark:hover:text-white text-[#787878] hover:text-[#020202]"
               >
                 {" "}
-                tardis.abs@gmail.com
+                albertomira1114@gmail.com
                 {"  "}
               </a>
               and let's talk.
@@ -47,18 +47,18 @@ export default function Contact() {
               Let's get social
             </h1>
             <p className="dark:text-[#9a9a9a] text-center md:text-left text-sm text-[#747474]">
-              Follow profiles on Twitter, GitHub and Linkedin.
+              Follow profiles on GitHub and Linkedin.
             </p>
           </Fade>
 
           <Fade delay={1900} triggerOnce={true}>
             <div className="grid items-center justify-center grid-cols-2 gap-5 md:grid-cols-4">
-              <AwesomeButton type="twitter" href={socialLinks.twitter}>
+              {/* <AwesomeButton type="twitter" href={socialLinks.twitter}>
                 <span className="flex items-center justify-center gap-1">
                   <BsTwitter size={20} />
                   <span className="text-sm font-light uppercase">Twitter</span>
                 </span>
-              </AwesomeButton>
+              </AwesomeButton> */}
               <AwesomeButton type="linkedin" href={socialLinks.linkedin}>
                 <span className="flex items-center justify-center gap-1">
                   <BsLinkedin size={20} />
@@ -75,6 +75,12 @@ export default function Contact() {
                 <span className="flex items-center justify-center gap-1">
                   <BsGithub size={20} />
                   <span className="text-sm font-light uppercase">Github</span>
+                </span>
+              </AwesomeButton>
+              <AwesomeButton type="twitter" href={socialLinks.telegram}>
+                <span className="flex items-center justify-center gap-1">
+                  <BsTelegram size={20} />
+                  <span className="text-sm font-light uppercase">Telegram</span>
                 </span>
               </AwesomeButton>
             </div>

@@ -3,7 +3,6 @@ import About from "../components/About";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
 import { BiSolidHomeAlt2 } from "react-icons/bi";
-import { BiSolidCalendarAlt } from "react-icons/bi";
 import { BiSolidMessageSquareDetail } from "react-icons/bi";
 import { BiSolidUser } from "react-icons/bi";
 import { BiLogoMicrosoft } from "react-icons/bi";

@@ -26,10 +26,9 @@ export default function Home() {
           </Fade>
           <Fade delay={1400} triggerOnce={true}>
             <p className="text-[#8a8a8a] text-sm md:text-md">
-              I am a Frontend | Blockchain Developer . I have rich experience in
-              web site design and building and customization, also I am good at
-              Solidity & Rust. I love to talk with you about your vision and
-              mission.
+            I am a FullStack | Blockchain developer with 8 years of experience.
+            As a blockchain full stack developer, I have participated in lot's of full stack and blockchain projects such as DApp, DEFI, DEX, DAO, NFT, MARKETPLACE, P2E GAME on various blockchains.
+            Most of the time, I am working on Ethereum, BSC, Polygon, Availanche, Fantom, Solana, Near and XRP blockchains.
             </p>
           </Fade>
           <Bounce delay={1600} triggerOnce={true}>
