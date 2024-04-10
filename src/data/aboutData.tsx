@@ -16,6 +16,7 @@ const skillSets = [
   "Web3",
   "Ethereum",
   "Solana",
+  "Ordinal"
 ];
 
 const knowledgeSets = [

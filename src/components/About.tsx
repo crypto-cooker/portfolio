@@ -17,17 +17,17 @@ export default function About() {
               Education
             </h1>
             <div className="flex items-center justify-start dark:bg-[#313131] bg-gray-100 p-1 rounded-md w-full">
-              <img
+              {/* <img
                 src="/imgs/universityMark.jpg"
                 alt=""
                 className="w-[150px] object-cover rounded-md"
-              />
+              /> */}
               <div className="flex flex-col items-start justify-start gap-3 p-4">
                 <span className="text-sm md:text-2xl dark:text-gray-200 text-[#434343]">
-                  Osaka University
+                  University of Belgrade
                 </span>
                 <p className="text-[#8a8a8a] text-md text-left">
-                  {`2011.4 ~ 2015.5`}
+                  {`2014.4 ~ 2018.5`}
                 </p>
                 <p className="text-[#8a8a8a] text-md text-left">
                   Bachelor Degree of Computer Science

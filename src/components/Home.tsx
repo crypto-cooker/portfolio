@@ -13,7 +13,7 @@ export default function Home() {
             <div className="p-2 center min-h-[200px]">
               <div className="ring"></div>
               <div className="relative p-2">
-                <img src="imgs/avatar.png" className="w-[200px] rounded-full" />
+                <img src="imgs/avatar1.png" className="w-[200px] rounded-full" />
               </div>
             </div>
           </Fade>
@@ -28,7 +28,7 @@ export default function Home() {
             <p className="text-[#8a8a8a] text-sm md:text-md">
             I am a FullStack | Blockchain developer with 8 years of experience.
             As a blockchain full stack developer, I have participated in lot's of full stack and blockchain projects such as DApp, DEFI, DEX, DAO, NFT, MARKETPLACE, P2E GAME on various blockchains.
-            Most of the time, I am working on Ethereum, BSC, Polygon, Availanche, Fantom, Solana, Near and XRP blockchains.
+            Most of the time, I am working on Bitcoin, Ethereum, BSC, Polygon, Availanche, Venom, Solana, Near and XRP blockchains.
             </p>
           </Fade>
           <Bounce delay={1600} triggerOnce={true}>
